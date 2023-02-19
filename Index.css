@@ -2,6 +2,31 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
 }
-
 /*common css ends here*/
+/*header css start here */
+.img_logo{
+    width: 100%;    
+}
+.add{
+    line-height: 23px;
+    margin-top: 0px;
+}
+.header_column{background-color: rgba(0, 0, 0, 0.068);}
+/*header css ends here*/
+/*section css start here*/
+.section_hr{
+     margin-left: 0px;
+    height: 10px;
+    width: 150px;
+    background-color: black;
+}
+.about{
+    margin-left: ;
+    width: 20px;
+    border-left: 5px;
+}
+/*section css ends here*/
