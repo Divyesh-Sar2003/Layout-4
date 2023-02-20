@@ -1,32 +1,98 @@
 /*common css start here*/
 *{
     margin: 0px;
-    padding: 0px;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    
+    padding: 0px;   
 }
 /*common css ends here*/
 /*header css start here */
 .img_logo{
-    width: 100%;    
+    width: 100px; 
+    height: 50px;   
 }
-.add{
-    line-height: 23px;
-    margin-top: 0px;
+.header_column_1{
+    
 }
-.header_column{background-color: rgba(0, 0, 0, 0.068);}
+.header_column_2{
+    background-color: rgba(0, 0, 0, 0.116);
+}
 /*header css ends here*/
 /*section css start here*/
 .section_hr{
-     margin-left: 0px;
+    margin-left: 0px;
     height: 10px;
     width: 150px;
-    background-color: black;
+    background-color:white;
 }
-.about{
-    margin-left: ;
-    width: 20px;
-    border-left: 5px;
+.container{
+    position: relative;
+}
+.first_section_row img{
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+}
+.first_section_row h2{   
+    font-weight: 900;
+    opacity: 0.6;
+    position: absolute;
+    font-size: 90px;
+    color: white;
+}
+.first_section_row h3{
+    margin-top: 35px;
+}
+.img_column_1{ color: white;
+    background-color: rgba(6, 2, 247, 0.582);}
+.about_column{
+    border-left: 20px solid rgb(207, 13, 126);
+}
+.img_column_2{
+    background-color: rgba(248, 8, 196, 0.534);
+    margin-bottom: 300px;
+}
+.img_column_1 h3{
+    font-size: 100px;
+}
+.about_column{
+    margin-left: 1px;
+    width: 5px;
+    border-left:4px solid rgb(226, 12, 101);
+}
+/*about paragraph start*/
+.paragraph{
+    width: 80%; 
+}
+.lorem{
+    padding-left: 5%;
+}
+/*about paragraph ends*/
+/* paragraph */
+.blogs_content
+{
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+.pink{
+    color: rgb(199, 9, 167);
+    text-align: 20px right;
 }
 /*section css ends here*/
+/*footer css start here */
+.footer_row{
+    background-color: black;
+    color: white;
+    padding: 5%;
+    padding-left: 20%;
+}
+.footer_hr{
+    background-color: white; 
+    width: 40px;
+    height: 3px;
+    margin-top: -2px;
+}
+.footer_row h4{
+    margin-top: -20px;
+}
+/*footer css ends here*/
